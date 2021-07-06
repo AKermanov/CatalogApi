@@ -20,7 +20,7 @@
             this.repository = repository;
         }
 
-        // https://youtu.be/ZXdFisA_hOY 2:27:00
+        // https://youtu.be/ZXdFisA_hOY 3:00:00
         [HttpGet]
         public async Task<IEnumerable<ItemDto>> GetItemsAsync()
         {
